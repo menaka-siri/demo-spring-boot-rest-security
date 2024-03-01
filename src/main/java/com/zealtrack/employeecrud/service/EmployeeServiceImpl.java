@@ -33,7 +33,7 @@ public class EmployeeServiceImpl implements EmployeeService {
             theEmployee = result.get();
         }
         else {
-            throw new RuntimeException("Did not fins the employee id - " + theId);
+            throw new RuntimeException("Did not find the employee id - " + theId);
         }
         return theEmployee;
     }
